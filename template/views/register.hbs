@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Portal</title>
+  <link href="data:image/x-icon;base64,AAABAAEAEBAAAAEACABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAoKC4AAgASAHiMdQB/lHsADhLEAIGVfgAmLwUAhZV+AD0NbQBACnYAcWRHAODKkwBxYkoAc4dwADAgKQCKnocAGSUDAAcDAQB5iXYAND4FAAcEBAB9jHYAISUDAAQAHAAKBwQAfJB5AHqTeQBrdWgADAkKAH6RfAATDrkANQeAAIWPfwA3B4AAhpd8AIWZggAQEOMAMDcDAAEAAgB3iW4AgJR9AA0SxgDc3cQAgpWAADg+MwABAgAAAwMDAAYBBgAIBQAACQQGAHeQewB7j3gAKQOIAIGXfgA1PjQAOQh8AENOAQATFwAAhJiBAIaYgQAAAgEAAQAEAHaKcwAYAjYAAwMEAAUDBAAeBT8Agot/AG54awB/k3wAgJZ8AGRiTgAQEcUAEhPCADsLdACFlH8AOwp6ADsGgAAoHpsAiJyFAAABCAB6hnEAAgUCAAYCAgB4jXQAeo53AHiRdwAIABcAbHdpABwlGQAkKwcAhJV6AIOXgAAoMQcAPEMzAAABAAAAAgMAAQAGAHgdUAACBAAAAwAGAAQCAwACBwAABQQAAHmIeAAAARsABQoJAH+PewB+knsAfpR4AICVewA1BoIAEBkAADwIfwA8EnkAFxwAAAIBAQDy++sARgh/AAEBCgB4jXYAeY12ABoZGwB8lXMAV2BdADcKdAAOEAoAgZZ/AIKWfwA4B30AExLCAGhlSAApMwYAKTEJAF9vXQAAAQIAAAQCAH2RegB7lHoACw0CAIGVdAAPD8wAg5mAADo5PACGmoMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlUCAjVRQxtEIBWOXIBcAgJVAgIsQQFAj356NgMoKAICeQICVFc3XxKBcjIjXDoCAnkCaDxCNxcRFEpLI5ACAgICAi0hDmJiTAkfXgUjAgICAgJnTQ40SEhIHmQdAgICAgICYXF2SI1Jgik9gAICAgKAAlBvfSROLnR3LzsCAgICVQIwBAgkZoMMCotGAgICAgICe3w/JEcLKnVTfwICAgICAlVUGGlgiF8xZScCAgICAhlqFoQAcwBdOSVjKwICAgIzhlImhQAGExxZbkUCAgJ4DRlthxBwWjiMiQcZAgICPj4CbFYaimtYW1VbVQICAgIPAhkziWwzBVwoIk9bAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=" rel="icon" type="image/x-icon" />
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+<section class="vh-100" style="background-color: #eee;">
+  <div class="container h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col-lg-12 col-xl-11">
+        <div class="card text-black" style="border-radius: 25px;">
+          <div class="card-body p-md-5">
+            <div class="row justify-content-center">
+              <div class="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
+
+                <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Sign up</p>
+
+                <form action="/register" method="POST" class="mx-1 mx-md-4">
+
+                  <div class="">
+                    <i class="fas fa-user fa-lg me-3 fa-fw"></i>
+                    <div class="form-outline flex-fill mb-0">
+                      <input type="firstname" class="form-control" id="exampleInputFirstName" placeholder="First Name" name="firstname">
+                    </div>
+                  </div>
+
+                  <div class="">
+                    <i class="fas fa-user fa-lg me-3 fa-fw"></i>
+                    <div class="form-outline flex-fill mb-0">
+                      <input type="lastname" class="form-control" id="exampleInputLastName" placeholder="Last Name" name="lastname">
+                    </div>
+                  </div>
+
+                  <div class="">
+                    <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
+                    <div class="form-outline flex-fill mb-0">
+                      <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email Adress" name="email">
+                    </div>
+                  </div>
+
+                  <div class="">
+                    <i class="fas fa-user fa-lg me-3 fa-fw"></i>
+                    <div class="form-outline flex-fill mb-0">
+                      <input type="gender" class="form-control" id="exampleInputGender" placeholder="Gender" name="gender">
+                    </div>
+                  </div>
+
+                  <div class="">
+                    <i class="fas fa-user fa-lg me-3 fa-fw"></i>
+                    <div class="form-outline flex-fill mb-0">
+                      <input type="phone" class="form-control" id="exampleInputPhone" placeholder="Phone Number" name="phone">
+                  </div>
+
+                  <div class="d-flex flex-row align-items-center mb-4">
+                    <i class="fas fa-user fa-lg me-3 fa-fw"></i>
+                    <div class="form-outline flex-fill mb-0">
+                      <input type="age" class="form-control" id="exampleInputAge" placeholder="Age" name="age">
+                    </div>
+                  </div>
+
+                  <div class="">
+                    <i class="fas fa-lock fa-lg me-3 fa-fw"></i>
+                    <div class="form-outline flex-fill mb-0">
+                      <input type="password" name="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    </div>
+                  </div>
+
+                  <div class="">
+                    <i class="fas fa-key fa-lg me-3 fa-fw"></i>
+                    <div class="form-outline flex-fill mb-0">
+                      <input type="confirmpasssword" class="form-control" id="exampleInputConfirmPassword" placeholder="Confirm Password" name="confirmpassword">
+                    </div>
+                  </div>
+
+                  <div class="text-center">
+                  <p>Already a member? <a href="/login">Login</a></p>
+
+                  <div class="">
+                    <button type="submit" class="btn btn-primary btn-lg">Register</button>
+                  </div>
+
+                </form>
+
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</body>
+</html>
