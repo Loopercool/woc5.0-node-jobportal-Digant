@@ -1,2 +1,1 @@
-# woc5.0-node-jobportal-Digant
-# woc5.0-node-jobportal-Digant
+The repo is about the Job Portal designed with Node.JS and MongoDB...
